@@ -24,7 +24,7 @@ export default function Menu() {
                 />
             </div>
 
-            <div className="flex flex-row justify-around py-2 bg-[#F2D33D] text-primaryGreen text-xl text-poppins font-bold">
+            <div className="flex flex-row justify-around py-2 bg-[#F2D33D] text-primaryGreen text-xl text-poppins font-bold shadow-md relative">
                 <Star />
                 <h1>OUR MENU</h1>
                 <Star />
@@ -54,7 +54,7 @@ export default function Menu() {
                 <div className="w-[18rem] md:w-[26rem] flex flex-col gap-2 text-primaryGreen">
                     <div className="flex flex-row justify-between font-bold text-xl font-moon-get">
                         <h1>
-                            ORIGINAL COOKIES
+                            MATCHA COOKIES
                         </h1>
                         <h1 className="text-secondaryYellow">
                             13k
@@ -68,7 +68,7 @@ export default function Menu() {
                 <div className="w-[18rem] md:w-[26rem] flex flex-col gap-2 text-primaryGreen">
                     <div className="flex flex-row justify-between font-bold text-xl font-moon-get">
                         <h1>
-                            ORIGINAL COOKIES
+                            STRAWBERRY COOKIES
                         </h1>
                         <h1 className="text-secondaryYellow">
                             13k

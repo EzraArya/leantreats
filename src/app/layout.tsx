@@ -25,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
+      <head>
+        <link rel="icon" href="/logo.png" sizes="any" />
+      </head>
       <body className="font-poppins antialiased">
         {children}
       </body>

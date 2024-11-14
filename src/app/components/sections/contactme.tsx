@@ -27,7 +27,9 @@ export default function ContactMe() {
                     />
                 </div>
                 <Button className='text-secondaryYellow font-poppins text-lg font-bold'>
-                    Order
+                    <a href="https://wa.me/6285183066469?text=I'm%20interested%20for%20your%20cookies">
+                        Order
+                    </a>
                 </Button>
             </div>
         </div>

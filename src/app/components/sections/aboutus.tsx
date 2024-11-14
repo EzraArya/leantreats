@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <div className="flex flex-col gap-2 items-center justify-center w-screen bg-offwhite md:flex-row md:justify-between md:items-center md:h-[500px] md:px-20 md:mx-auto md:max-w-7xl">
-      <div className="relative w-64 h-64 md:w-1/2 md:h-full">
+    <div className="flex flex-col gap-2 items-center justify-center w-full bg-offwhite md:flex-row md:justify-between md:items-center md:h-[500px] md:px-56  pt-10 pb-10 md:pt-0 md:pb-0">
+      <div className="relative w-72 h-64 md:h-64 md:w-64">
         <Image
           src="/asset/image.png"
           alt="Image"
@@ -11,8 +11,8 @@ export default function AboutUs() {
           objectFit="cover"
         />
       </div>
-      <div className="text-center ml-6 mr-10 md:w-1/2 md:flex md:flex-col md:justify-center md:items-start md:ml-0 md:mr-0 md:px-0">
-        <h1 className="text-primaryGreen text-xl font-bold">
+      <div className="text-center ml-6 mr-10 md:w-1/2 md:flex md:flex-col md:justify-between md:items-center md:ml-0 md:mr-0 md:px-0 md:text-left">
+        <h1 className="text-primaryGreen text-2xl font-bold font-moon-get">
           LOW CALORIE SNACKS MADE FROM{" "}
           <span className="text-secondaryYellow">NATURAL INGRIDIENTS</span>
         </h1>

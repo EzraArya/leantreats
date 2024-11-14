@@ -65,20 +65,6 @@ export default function Menu() {
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, ratione?
                     </p>
                 </div>
-                <div className="w-[18rem] md:w-[26rem] flex flex-col gap-2 text-primaryGreen">
-                    <div className="flex flex-row justify-between font-bold md:text-xl font-moon-get">
-                        <h1>
-                            STRAWBERRY COOKIES
-                        </h1>
-                        <h1 className="text-secondaryYellow">
-                            15k
-                        </h1>
-                    </div>
-                    <hr />
-                    <p className="font-poppins">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, ratione?
-                    </p>
-                </div>
             </div>
 
             {/* Bottom Left Image */}

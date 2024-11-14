@@ -36,7 +36,7 @@ export default function FAQ() {
                         Bagaimana cara menyimpan healthy cookies?
                     </AccordionTrigger>
                     <AccordionContent className="text-poppins">
-                    Simpan cookies LeanTreats dalam wadah kedap udara di tempat yang sejuk dan kering. Anda juga bisa menyimpannya di dalam kulkas.
+                        Simpan cookies LeanTreats dalam wadah kedap udara di tempat yang sejuk dan kering. Anda juga bisa menyimpannya di dalam kulkas.
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2" className="bg-white px-3 border rounded-md drop-shadow-md mb-3">
@@ -44,7 +44,7 @@ export default function FAQ() {
                         Berapa lama masa simpan healthy cookies?                    
                     </AccordionTrigger>
                     <AccordionContent>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, incidunt.
+                        Cookies LeanTreats dapat tahan hingga 2 hari.
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3" className="bg-white px-3 border rounded-md drop-shadow-md mb-3">
@@ -52,7 +52,7 @@ export default function FAQ() {
                         Apakah healthy cookies cocok untuk diet tertentu?                    
                     </AccordionTrigger>
                     <AccordionContent>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, est.
+                        Dengan rendahnya kalori dan tidak memakai artificial sweeteners tentu saja akan cocok untuk diet kamu
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4" className="bg-white px-3 border rounded-md drop-shadow-md mb-3">
@@ -60,7 +60,7 @@ export default function FAQ() {
                         Apakah ada alergi yang harus diperhatikan?                    
                     </AccordionTrigger>
                     <AccordionContent>
-                    Simpan cookies LeanTreats dalam wadah kedap udara di tempat yang sejuk dan kering. Anda juga bisa menyimpannya di dalam kulkas.
+                        Buat teman-teman yang menderita alergi pisang dan coklat bisa diperhatikan ya
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-5" className="bg-white px-3 border rounded-md drop-shadow-md mb-3">
@@ -68,7 +68,7 @@ export default function FAQ() {
                         Bagaimana cara memesan?                    
                     </AccordionTrigger>
                     <AccordionContent>
-                    Simpan cookies LeanTreats dalam wadah kedap udara di tempat yang sejuk dan kering. Anda juga bisa menyimpannya di dalam kulkas.
+                        Anda bisa memesan melalui chat whatsapp dengan menekan tombol dibawah, dan juga bisa melalui instagram @
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>

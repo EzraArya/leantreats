@@ -9,7 +9,7 @@ import Image from "next/image"
 
 export default function FAQ() {
     return(
-        <div className="relative w-full flex flex-col items-center justify-center pt-12 bg-[#F2D33D] shadow-sm shadow-black pb-12 gap-4 overflow-hidden">
+        <div id="faq" className="relative w-full flex flex-col items-center justify-center pt-12 bg-[#F2D33D] shadow-sm shadow-black pb-12 gap-4 overflow-hidden">
             {/* Top Left Image */}
             <div className="absolute top-16 -left-24 w-36 h-24 rotate-1 opacity-70 md:top-20 md:-left-16 md:w-52 md:rotate-12">
                 <Image 

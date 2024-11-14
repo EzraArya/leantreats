@@ -3,7 +3,7 @@ import { Button } from '../ui/button'
 
 export default function ContactMe() {
     return(
-        <div className="w-full flex flex-col bg-offwhite pb-12">
+        <div id='contact' className="w-full flex flex-col bg-offwhite pb-12">
             <div className="h-20 bg-primaryGreen flex justify-center items-center">
                 <h1 className="text-4xl font-bold text-secondaryYellow">
                     ORDER NOW!

@@ -1,6 +1,22 @@
+'use client'
+
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { ChevronRight } from "lucide-react";
+
+const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const navHeight = 76;
+      const elementPosition = section.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - navHeight;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  };
 
 export default function Landing() {
     return (
@@ -21,9 +37,9 @@ export default function Landing() {
                     <h1>GUILT-FREE</h1>
                     <h1>COOKIES!</h1>
                 </div>
-                <Button className="flex items-center space-x-2">
-                    <span>Learn More</span>
-                    <ChevronRight />
+                <Button className="flex items-center space-x-2" onClick={() => scrollToSection("about")}>
+                        <span>Learn More</span>
+                        <ChevronRight />
                 </Button>
             </div>
         </div>

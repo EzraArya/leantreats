@@ -1,4 +1,20 @@
+'use client'
+
 export default function Footer() {
+    const scrollToSection = (sectionId: string) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            const navHeight = 76; // Approximate header height in pixels
+            const elementPosition = section.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - navHeight;
+            
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
+            });
+        }
+    };
+
     return(
         <footer className="w-full h-40 bg-[#2D2D2D] flex flex-row justify-around text-white items-center font-poppins flex-wrap">
             <div className="flex flex-col justify-center gap-2 text-sm">
@@ -22,28 +38,40 @@ export default function Footer() {
                 <h1>
                     Explore
                 </h1>
-                <h1 className="opacity-50">
+                <button 
+                    onClick={() => scrollToSection('about')}
+                    className="opacity-50 hover:opacity-100 text-left"
+                >
                     About Us
-                </h1>
-                <h1 className="opacity-50">
+                </button>
+                <button 
+                    onClick={() => scrollToSection('faq')}
+                    className="opacity-50 hover:opacity-100 text-left"
+                >
                     FAQ
-                </h1>
+                </button>
             </div>
             <div className="text-sm flex flex-col gap-1">
                 <h1>
                     Menu
                 </h1>
-                <h1 className="opacity-50">
+                <button 
+                    onClick={() => scrollToSection('menu')}
+                    className="opacity-50 hover:opacity-100 text-left"
+                >
                     Menu
-                </h1>
+                </button>
             </div>
             <div className="text-sm flex flex-col gap-1">
                 <h1>
                     Contact Us
                 </h1>
-                <h1 className="opacity-50">
+                <button 
+                    onClick={() => scrollToSection('contact')}
+                    className="opacity-50 hover:opacity-100 text-left"
+                >
                     Order
-                </h1>
+                </button>
             </div>
         </footer>
     )

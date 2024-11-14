@@ -10,12 +10,14 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Landing />
-      <AboutUs />
-      <Menu />
-      <FAQ />
-      <ContactMe />
-      <Footer />
+      <div className="pt-12">
+        <Landing />
+        <AboutUs />
+        <Menu />
+        <FAQ />
+        <ContactMe />
+        <Footer />
+      </div>
     </div>    
   );
 }

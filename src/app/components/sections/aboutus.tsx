@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <div className="flex flex-col gap-2 items-center justify-center w-full bg-offwhite md:flex-row md:justify-between md:items-center md:h-[500px] md:px-56  pt-10 pb-10 md:pt-0 md:pb-0">
+    <div id="about" className="flex flex-col gap-2 items-center justify-center w-full bg-offwhite md:flex-row md:justify-between md:items-center md:h-[500px] md:px-56  pt-10 pb-10 md:pt-0 md:pb-0">
       <div className="relative w-72 h-64 md:h-64 md:w-64">
         <Image
           src="/asset/image.png"

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Menu() {
     return (
-        <div className="w-full flex flex-col gap-4 bg-offwhite relative overflow-hidden md:h-[32rem] md:gap-16">
+        <div id="menu" className="w-full flex flex-col gap-8 bg-offwhite relative overflow-hidden md:h-[32rem] md:gap-16">
             {/* Top Left Image */}
             <div className="absolute top-16 -left-28 w-36 h-24 rotate-1 opacity-70 md:top-20 md:-left-16 md:w-52 md:rotate-12">
                 <Image 
@@ -57,7 +57,7 @@ export default function Menu() {
                             MATCHA COOKIES
                         </h1>
                         <h1 className="text-secondaryYellow">
-                            13k
+                            15k
                         </h1>
                     </div>
                     <hr />
@@ -71,7 +71,7 @@ export default function Menu() {
                             STRAWBERRY COOKIES
                         </h1>
                         <h1 className="text-secondaryYellow">
-                            13k
+                            15k
                         </h1>
                     </div>
                     <hr />

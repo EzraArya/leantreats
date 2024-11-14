@@ -48,7 +48,7 @@ export default function Menu() {
                     </div>
                     <hr />
                     <p className="font-poppins">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, ratione?
+                        Mengandung pisang, coklat dan chocochip
                     </p>
                 </div>
                 <div className="w-[18rem] md:w-[26rem] flex flex-col gap-2 text-primaryGreen">
@@ -62,7 +62,7 @@ export default function Menu() {
                     </div>
                     <hr />
                     <p className="font-poppins">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, ratione?
+                        Mengandung matcha, pisang, dan chocochip
                     </p>
                 </div>
             </div>

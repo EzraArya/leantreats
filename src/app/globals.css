@@ -73,3 +73,10 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: 'Moon Get';
+  src: url('/fonts/MoonGet.otf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}

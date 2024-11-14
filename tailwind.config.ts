@@ -10,7 +10,7 @@ export default {
   theme: {
   	extend: {
   		colors: {
-  			offwhite: '##FFFCEE',
+  			offwhite: '#FFFCEE',
   			primaryGreen: '#03604D',
   			secondaryYellow: '#E4C011',
   			background: 'hsl(var(--background))',
@@ -55,6 +55,7 @@ export default {
   			}
   		},
   		fontFamily: {
+			"poppins": ['var(--font-poppins)', 'sans-serif'],
   			'moon-get': ["Moon Get", "sans-serif"]
   		},
   		borderRadius: {

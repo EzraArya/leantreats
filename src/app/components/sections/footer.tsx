@@ -1,8 +1,8 @@
 export default function Footer() {
     return(
-        <footer className="w-full h-40 bg-[#2D2D2D] flex flex-row justify-around text-white items-center">
+        <footer className="w-full h-40 bg-[#2D2D2D] flex flex-row justify-around text-white items-center font-poppins flex-wrap">
             <div className="flex flex-col justify-center gap-2 text-sm">
-                <h1 className="text-xl font-bold text-primaryGreen">
+                <h1 className="text-xl font-bold text-primaryGreen font-moon-get">
                     LEAN 
                     <span className="text-secondaryYellow">
                         TREATS

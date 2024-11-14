@@ -29,8 +29,8 @@ export default function FAQ() {
                     objectFit="cover"
                 />
             </div>
-            <h1 className="text-primaryGreen text-3xl font-bold font-moon-get md:text-5xl md:pb-4">Frequently Asked Question</h1>
-            <Accordion type="single" collapsible className="w-[23rem] md:w-[40rem] text-poppins">
+            <h1 className="text-primaryGreen text-2xl font-bold font-moon-get md:text-5xl md:pb-4 text-center">Frequently Asked Question</h1>
+            <Accordion type="single" collapsible className="w-[20rem] md:w-[40rem] text-poppins">
                 <AccordionItem value="item-1" className="bg-white px-3 border rounded-md drop-shadow-md mb-3">
                     <AccordionTrigger className=" text-sm font-bold text-primaryGreen md:text-lg">
                         Bagaimana cara menyimpan healthy cookies?

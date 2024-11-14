@@ -5,7 +5,7 @@ export default function Menu() {
     return (
         <div className="w-full flex flex-col gap-4 bg-offwhite relative overflow-hidden md:h-[32rem] md:gap-16">
             {/* Top Left Image */}
-            <div className="absolute top-16 -left-24 w-36 h-24 rotate-1 opacity-70 md:top-20 md:-left-16 md:w-52 md:rotate-12">
+            <div className="absolute top-16 -left-28 w-36 h-24 rotate-1 opacity-70 md:top-20 md:-left-16 md:w-52 md:rotate-12">
                 <Image 
                     src="/asset/background-image.png"
                     alt="background image top left"
@@ -30,15 +30,15 @@ export default function Menu() {
                 <Star />
                 <h1>OUR MENU</h1>
                 <Star />
-                <h1>OUR MENU</h1>
-                <Star />
                 <h1 className="hidden md:flex">OUR MENU</h1>
                 <Star className="hidden md:flex"/>
+                <h1 className="hidden lg:flex">OUR MENU</h1>
+                <Star className="hidden lg:flex"/>
             </div>
 
             <div className="flex flex-col justify-between items-center gap-6 pb-10 text-primaryGreen">
                 <div className="w-[18rem] md:w-[26rem] flex flex-col gap-2 text-primaryGreen">
-                    <div className="flex flex-row justify-between text-xl font-bold font-moon-get">
+                    <div className="flex flex-row justify-between md:text-xl font-bold font-moon-get">
                         <h1>
                             ORIGINAL COOKIES
                         </h1>
@@ -52,7 +52,7 @@ export default function Menu() {
                     </p>
                 </div>
                 <div className="w-[18rem] md:w-[26rem] flex flex-col gap-2 text-primaryGreen">
-                    <div className="flex flex-row justify-between font-bold text-xl font-moon-get">
+                    <div className="flex flex-row justify-between font-bold md:text-xl font-moon-get">
                         <h1>
                             MATCHA COOKIES
                         </h1>
@@ -66,7 +66,7 @@ export default function Menu() {
                     </p>
                 </div>
                 <div className="w-[18rem] md:w-[26rem] flex flex-col gap-2 text-primaryGreen">
-                    <div className="flex flex-row justify-between font-bold text-xl font-moon-get">
+                    <div className="flex flex-row justify-between font-bold md:text-xl font-moon-get">
                         <h1>
                             STRAWBERRY COOKIES
                         </h1>
@@ -82,7 +82,7 @@ export default function Menu() {
             </div>
 
             {/* Bottom Left Image */}
-            <div className="absolute bottom-6 -left-8 w-24 h-16 opacity-70 -rotate-12 md:bottom-16 md:-left-24 md:w-52   md:h-24">
+            <div className="absolute bottom-6 -left-16 w-24 h-16 opacity-70 -rotate-12 md:bottom-16 md:-left-24 md:w-52   md:h-24">
                 <Image 
                     src="/asset/background-image.png"
                     alt="background image top left"

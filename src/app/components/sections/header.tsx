@@ -23,10 +23,10 @@ export default function Header() {
         </h1>
       </div>
       <div className="hidden md:flex md:flex-row md:justify-between md:text-primaryGreen md:font-semibold">
-        <h1 className="mr-6">ABOUT US</h1>
-        <h1 className="mr-6">MENU</h1>
-        <h1 className="mr-6">FAQ</h1>
-        <h1 className="mr-6">CONTACT</h1>
+        <a href='' className="mr-6">ABOUT US</a>
+        <a href='' className="mr-6">MENU</a>
+        <a href='' className="mr-6">FAQ</a>
+        <a href='' className="mr-6">CONTACT</a>
       </div>
       <div className="md:hidden">
         <button onClick={toggleMenu}>
@@ -38,11 +38,11 @@ export default function Header() {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="absolute top-16 right-4 bg-primary text-white py-4 px-6 rounded-md w-48 z-10">
-          <h1 className="mb-3">ABOUT US</h1>
-          <h1 className="mb-3">MENU</h1>
-          <h1 className="mb-3">FAQ</h1>
-          <h1 className="mb-3">CONTACT</h1>
+        <div className="absolute top-16 right-4 bg-offwhite text-primaryGreen font-semibold py-4 px-6 rounded-md w-48 z-10 md:hidden flex flex-col">
+          <a href='' className="mb-3">ABOUT US</a>
+          <a href='' className="mb-3">MENU</a>
+          <a href='' className="mb-3">FAQ</a>
+          <a href='' className="mb-3">CONTACT</a>
         </div>
       )}
     </nav>

@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react";
 
 export default function Landing() {
     return (
-        <div className="relative w-screen h-80">
+        <div className="relative w-full h-64 md:h-[600px]">
             {/* Background Image */}
             <Image 
                 src="/asset/background.png" 

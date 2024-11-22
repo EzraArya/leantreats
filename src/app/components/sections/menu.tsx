@@ -43,7 +43,7 @@ export default function Menu() {
                             ORIGINAL COOKIES
                         </h1>
                         <h1 className="text-secondaryYellow">
-                            13k
+                            12k
                         </h1>
                     </div>
                     <hr />
@@ -51,7 +51,7 @@ export default function Menu() {
                         Mengandung pisang, coklat dan chocochip
                     </p>
                 </div>
-                <div className="w-[18rem] md:w-[26rem] flex flex-col gap-2 text-primaryGreen">
+                {/* <div className="w-[18rem] md:w-[26rem] flex flex-col gap-2 text-primaryGreen">
                     <div className="flex flex-row justify-between font-bold md:text-xl font-moon-get">
                         <h1>
                             MATCHA COOKIES
@@ -64,7 +64,7 @@ export default function Menu() {
                     <p className="font-poppins">
                         Mengandung matcha, pisang, dan chocochip
                     </p>
-                </div>
+                </div> */}
             </div>
 
             {/* Bottom Left Image */}
